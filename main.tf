@@ -1,11 +1,11 @@
 provider "github" {
   token        = var.github_token
-  organization = "your-github-organization"  # Replace with your GitHub organization name
+  organization = "Practical-DevOps-GitHub/github-terraform-task"  # Replace with your GitHub organization name
 }
 
 resource "github_repository" "repo" {
   name             = "your-repo-name"  # Replace with your desired repository name
-  description      = "Your repository description"  # Replace with your repository description
+  description      = "SoftServe"  # Replace with your repository description
   private          = true
   visibility       = "private"
   has_issues       = true
